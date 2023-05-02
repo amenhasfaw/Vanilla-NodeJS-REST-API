@@ -1,0 +1,12 @@
+const products = require('../Data/products.json')
+
+function findAll(){
+    return new Promise((resolve, reject) => {
+        resolve(products)
+    })
+}
+
+
+module.exports = {
+    findAll
+}
