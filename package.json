@@ -20,5 +20,8 @@
   "homepage": "https://github.com/amenhasfaw/Vanilla-NodeJS-REST-API#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
   }
 }
